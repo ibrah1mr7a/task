@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.main{
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}                       
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 50px;
+}                       
+.header .semester,
+.header .lastlogin{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}                             
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.sidebar .logo{
+    margin-bottom: 50px;
+}
+.sidebar img{
+    max-width: 50%;
+}
+.sidebar nav ul{
+    list-style-type: none;
+
+}
+.sidebar nav ul li{
+    margin: 20px 0;
+}
+.sidebar nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.elanlar{
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
